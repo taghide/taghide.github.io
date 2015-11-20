@@ -1,0 +1,690 @@
+
+.phone-canvas-container {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 0;
+}
+.phone-canvas-container canvas {
+  box-shadow: 0 0 5px #ccc;
+  z-index: 1;
+}
+.phone-canvas-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-image-rendering: optimizeQuality;
+  -moz-image-rendering: auto;
+  z-index: 2;
+}
+
+
+/* TITLED OVERLAY */
+
+.titled-overlay {
+    width: 640px;
+}
+
+@media screen and (max-width: 640px) {
+    .titled-overlay {
+        width: 320px;
+    }
+}
+
+
+.titled-overlay .titled-overlay-content.loading {
+    min-height: 200px;
+    background: transparent url(https://d2kfjaekmjmy1l.cloudfront.net/images/loading-v49b29e9f0a24.gif) center no-repeat;
+}
+
+
+.titled-overlay .titlebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+
+    color: #9da2a6;
+    font-size: 18px;
+    text-align: center;
+
+    border-bottom: 1px solid #e0e2e3;
+}
+.titled-overlay .titlebar .title {
+    padding-top: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.titled-overlay .titlebar .left-option {
+    float: left;
+    margin-left: 15px;
+}
+.titled-overlay .titlebar a.left-option {
+    color: #666;
+    font-size: 16px;
+}
+
+.titled-overlay .titled-overlay-content {
+    padding: 30px;
+    position: absolute;
+    /* top: is set by reading the height of the titlebar in JS */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    background-color: #F5F7F8;
+}
+
+
+
+/* plain OVERLAY */
+
+.plain-overlay {
+    width: 350px;
+    background: none;
+    border: none;
+}
+
+@media screen and (max-width: 640px) {
+    .plain-overlay {
+        width: 320px;
+    }
+}
+
+.plain-overlay .plain-overlay-content.loading {
+    min-height: 200px;
+    background: transparent url(https://d2kfjaekmjmy1l.cloudfront.net/images/loading-v49b29e9f0a24.gif) center no-repeat;
+}
+
+.plain-overlay .plain-overlay-content {
+    position: absolute;
+    /* top: is set by reading the height of the titlebar in JS */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+}
+
+
+#screenshot-sets li {
+  color: #999;
+}
+#screenshot-sets .screenshot-set-name {
+  font-size: 24px;
+  font-weight: 300;
+}
+#screenshot-sets .buttons {
+  text-align: right;
+  padding-right: 5px;
+}
+#screenshot-sets .buttons .btn {
+  margin-right: 10px;
+}
+.webapp .requires-pro {
+  color: #a4a4a4;
+  background: #eee;
+  position: relative;
+}
+
+.webapp .requires-pro:after {
+  position: absolute;
+  top: -8px;
+  right: -2px;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  background: #0092F2;
+  content: "Pro";
+}
+
+.webapp .requires-pro.no-label:after {
+  padding:0;
+  content:"";
+}
+
+.webapp .requires-pro:hover {
+  color: #333;
+  background: #efefef;
+  transition: ease-in-out 250ms;
+}
+.webapp .requires-pro:hover:after {
+  top: -10px;
+  right: -5px;
+  transition: ease-in-out 250ms;
+}
+
+.webapp .requires-pro a {
+  color: #a4a4a4;
+}
+
+@media (max-width: 768px) {
+  #screenshot-sets .buttons {
+    margin-top: 10px;
+    text-align: left;
+  }
+}
+
+
+.inline-editable {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding: 5px 0;
+  margin-top: -5px;
+  cursor: text;
+  line-height: 1em;
+  height: 1em;
+
+  border: 1px dotted transparent;
+  border-bottom-color: #999;
+}
+
+.inline-editable:hover {
+  background-color: #efefef;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.inline-editable.editing {
+  border-color: #efefef;
+  padding: 10px;
+  margin-top: 0;
+  background: #fafafa;
+  border-radius: 3px;
+}
+
+.inline-editable input {
+  background: inherit;
+
+  position: absolute;
+
+  /* Same as parent padding. */
+  left: 10px;
+  top: 8px;
+
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  line-height: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: inherit;
+}
+
+.titled-overlay.full-resolution-preview-overlay {
+  width: 750px;
+  text-align: center;
+}
+
+.titled-overlay.full-resolution-preview-overlay .screenshot {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+    .titled-overlay.full-resolution-preview-overlay {
+        width: 100%;
+    }
+}
+.drop-target-container {
+  position: relative;
+  background: #fff;
+  -webkit-transition: background 0.2s ease-out;
+  min-height: 0;
+  color: #999;
+}
+
+
+/* FILE CHOOSER */
+
+.drop-target-container {
+    position: relative;
+
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    background: #fff;
+
+    -webkit-transition: background 0.2s ease-out;
+
+    color: #999;
+}
+.drop-target-container.droppable {
+    -webkit-box-shadow: inset 0 0 15px #999;
+       -moz-box-shadow: inset 0 0 15px #999;
+            box-shadow: inset 0 0 15px #999;
+}
+.drop-target-container.dropped {
+    background: #cccccc;
+    -webkit-box-shadow: inset 0 0 15px #999;
+       -moz-box-shadow: inset 0 0 15px #999;
+            box-shadow: inset 0 0 15px #999;
+    -webkit-transition: none;
+}
+
+.drop-target-container .drop-target {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.drop-target-container .drop-target {
+    z-index: 1000;
+    /* Fix for IE10: Don't let hovering over this element with a file activate elements behind it. */
+    background: rgba(0,0,0,0.01);
+}
+
+.drop-target-container .drop-target-text {
+  padding: 40px 0;
+}
+.drop-target-container .drop-target-icon {
+  padding: 40px 0;
+}
+
+/* "Choose a file" contains a hidden input absolutely positioned. */
+
+.file-picker-container {
+    position: relative;
+    cursor: pointer;
+    /* don't let the file input escape the box. */
+    overflow: hidden;
+    position: relative;
+    z-index: 1001;
+}
+.file-picker-container input {
+    cursor: pointer;
+}
+
+#screenshot-editor {
+  margin-bottom: 50px;
+  overflow-x: scroll;
+}
+#screenshot-editor ul {
+  min-width: 1400px;
+}
+@media (max-width: 768px) {
+  #screenshot-editor ul {
+    min-width: inherit;
+  }
+}
+#screenshot-set h2 .btn {
+  margin-left: 10px;
+  float: right;
+}
+#screenshot-set .proper-name,
+#screenshot-set .resolution {
+  display: none;
+}
+
+#screenshot-set .screenshot-set-column .preview {
+  background: white;
+  margin: 0 -10px 20px;
+  padding: 20px 20px 0;
+  box-shadow: none;
+}
+#screenshot-set .device-options {
+  margin: 0 -10px;
+  overflow: hidden;
+}
+#screenshot-set .form-group {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+#screenshot-set .form-separator {
+  color: #000;
+  margin: 0 0 5px;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+#screenshot-set .device-options .collapse-overrides {
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.screenshot-override .control {
+  margin: 0 -15px 10px;
+  padding: 0 !important;
+}
+#add-another-screenshot {
+  background: white;
+  padding: 20px;
+  text-align: center;
+}
+#add-another-screenshot .drop-target-text {
+  width: 100%;
+  padding: 0;
+  position: absolute;
+  top: 45%;
+}
+#add-another-screenshot .drop-target {
+  padding: 0;
+  width: 100%;
+  padding-top: 181.4%;
+  position: relative;
+}
+#screenshot-set .show-landscape .ipad {
+  display: none;
+}
+.toggle-ipad-upload-orientation {
+  clear: both;
+  padding: 5px 0 0 5px;
+}
+#screenshot-set .ipadlandscape {
+  display: none;
+}
+#screenshot-set .show-landscape .ipadlandscape{
+  display: block;
+}
+.screenshot-set-column.position-none .hide-if-only-screenshot,
+.screenshot-set-column.position-device .hide-if-only-device {
+  display: none;
+}
+#screenshot-set .screenshot-set-column.position-device .device-options .layout-style {
+  margin-bottom: 0;
+}
+
+#screenshot-set-font-form {
+  padding: 20px;
+  border-bottom: 1px solid #efefef;
+}
+.webapp a.font-form-toggle {
+  color: #999;
+}
+/* Hide add more once there are 5 screenshots. */
+#add-another-screenshot:nth-child(6) {
+  display: none;
+}
+
+#saving-indicator {
+  opacity: 1;
+}
+#saving-indicator > * {
+  display: none;
+}
+#saving-indicator.saving > .saving {
+  display: inline-block;
+}
+#saving-indicator.saved > .saved {
+  display: inline-block;
+  color: green;
+}
+
+#saving-indicator.saved {
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -ms-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
+}
+#saving-indicator.saved {
+  opacity: 0;
+}
+
+.titled-overlay.full-resolution-preview-overlay {
+  width: 550px;
+}
+
+
+#add-first-screenshot-right .hide-searching,
+#add-first-screenshot-right .hide-adding-url,
+#add-first-screenshot-right .hide-choosing-file {
+  max-height: 1500px;
+  overflow: hidden;
+
+  -webkit-transition: max-height 0.2s ease;
+  -moz-transition: max-height 0.2s ease;
+  -ms-transition: max-height 0.2s ease;
+}
+
+#add-first-screenshot-right.choosing-file .hide-choosing-file {
+  max-height: 0;
+  padding: 0;
+  border: 0;
+}
+
+#add-first-screenshot-right.adding-image-url .hide-adding-url {
+  max-height: 0;
+  padding: 0;
+  border: 0;
+}
+
+#add-first-screenshot-right.searching .hide-searching {
+  max-height: 0;
+  border: 0;
+  padding: 0;
+}
+
+
+/* ADD SCREENSHOT BY URL */
+
+#add-first-screenshot-url .url-preview {
+  display: none;
+  text-align: center;
+}
+#add-first-screenshot-url .url-preview.loading,
+#add-first-screenshot-url .url-preview.success,
+#add-first-screenshot-url .url-preview.error {
+  display: block;
+}
+
+#add-first-screenshot-url .url-preview.loading {
+  height: 200px;
+  background: url(https://d2kfjaekmjmy1l.cloudfront.net/images/loading-v49b29e9f0a24.gif) center no-repeat;
+}
+
+#add-first-screenshot-url .screenshot-url-preview {
+  display: none;
+}
+#add-first-screenshot-url .url-preview.success .screenshot-url-preview {
+  display: block;
+}
+
+
+#add-first-screenshot-url .screenshot-url-preview img {
+  height: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#add-first-screenshot-url .alert {
+  display: none;
+}
+#add-first-screenshot-url .url-preview.error .alert {
+  display: block;
+}
+
+
+/* SEARCH APP STORE */
+
+
+#add-first-screenshot-results {
+  padding-left: 0;
+}
+
+#add-first-screenshot-results.loading {
+  min-height: 55px;
+  background: url(https://d2kfjaekmjmy1l.cloudfront.net/images/loading-v49b29e9f0a24.gif) center no-repeat;
+}
+
+#add-first-screenshot-results .result {
+  border-bottom: 1px solid #dde8ed;
+}
+#add-first-screenshot-results .result a {
+  text-decoration: none;
+  color: #666;
+  position: relative;
+  display: block;
+  padding: 10px;
+  overflow: hidden;
+}
+#add-first-screenshot-results .result a:hover {
+  background: #dde8ed;
+}
+
+#add-first-screenshot-results .result .app-icon {
+  float: left;
+  width: 45px;
+  height: 45px;
+}
+
+#add-first-screenshot-results .result .name,
+#add-first-screenshot-results .result .developer {
+  display: block;
+  margin-left: 55px;
+  margin-right: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#add-first-screenshot-results .result .developer {
+  color: #999;
+  font-size: 80%;
+}
+
+#add-first-screenshot-results .result .select {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -.6em;
+  font-size: 1.2em;
+  font-weight: 100;
+  color: #ccc;
+}
+
+#add-first-screenshot-results .result-screenshots {
+  max-height: 0;
+  overflow: hidden;
+
+  -webkit-transition: max-height 0.2s ease;
+  -moz-transition: max-height 0.2s ease;
+  -ms-transition: max-height 0.2s ease;
+}
+
+#add-first-screenshot-results .expanded .result-screenshots {
+  max-height: 250px; /* any value larger than the screenshot height */
+}
+
+#add-first-screenshot-results .result-screenshots {
+  padding: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+#add-first-screenshot-results .result-screenshots li {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 5px;
+  line-height: 0;
+  border: 1px solid #ccc;
+}
+#add-first-screenshot-results .result-screenshots img {
+  height: 198px; /* width of 5 across */
+  width: 112px; /* squishes iPhone 4 screenshots, to fix? */
+  line-height: 0;
+  cursor: pointer;
+}
+
+
+.new-style-picker {
+  margin: 40px auto 0;
+  max-width: 1000px;
+}
+#screenshot-editor.width-constrained {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#screenshot-editor .phone-container .proper-name,
+#screenshot-editor .phone-container .resolution {
+  display: none;
+}
+#screenshot-editor .full-resolution-preview {
+  text-align: center;
+}
+
+#screenshot-editor.position-none .position-none-hides,
+.position-none-shows {
+  display: none;
+}
+#screenshot-editor.position-none .position-none-shows {
+  display: block;
+}
+
+.dashboard #content-main-body .new-style-picker .new-style-picker-instructions h2 {
+  margin-left: 0;
+}
+.new-style-picker .new-style-picker-instructions img {
+  width: 100%;
+  border: 1px solid #efefef;
+}
+.new-style-picker .screenshot-style {
+  box-shadow: 0 0 5px #ccc;
+  background: white;
+  /* This makes the squares show up in the correct size while the images are still loading. */
+  padding-top: 177.77%;
+  position: relative;
+}
+.new-style-picker .screenshot-style img {
+  width: 100%;
+  /* see contianer style ^ */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.new-style-picker a.btn {
+  margin-top: 20px;
+}
+
+
+#screenshot-form .form-group-header {
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+#screenshot-form fieldset {
+  clear: both;
+}
+
+#screenshot-chooser {
+  position: relative;
+  height: 140px;
+  text-align: center;
+}
+
+
+
+
+#phone-list .proper-name {
+  font-size: 1.1em;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+#phone-list .resolution {
+  font-size: .8em;
+  color: #999;
+  text-align: center;
+  padding: .5em;
+  margin-bottom: 20px;
+}
+#screenshot-preview .preview:hover canvas {
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.04), 0 0px 1px rgba(28,39,72,.15), 0 6px 34px rgba(0,0,0,.49);
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,.04), 0 0px 1px rgba(28,39,72,.15), 0 6px 34px rgba(0,0,0,.49);
+  box-shadow: 0 1px 4px rgba(0,0,0,.04), 0 0px 1px rgba(28,39,72,.15), 0 6px 34px rgba(0,0,0,.49);
+  cursor: pointer;
+  border-radius: 2px;
+
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
