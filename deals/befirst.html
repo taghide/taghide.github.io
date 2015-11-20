@@ -67,29 +67,24 @@
     }
     
     .helptxt{
-        position: relative;
-        width: 100%;
-        margin: 0 auto;
+    position: relative;
+     width: 400px;
+    margin: 0 auto;
         top: 0px;
         color: purple;
         text-align:center;
-        display: block;
-        margin-top: 0.33em;
-        margin-bottom: 0.33em;
-        margin-left: 0;
-        margin-right: 0;
-        font-weight: bold;
+	font-size: 16px;
         font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     }
 .emailTextbox {
     position: relative;
      width: 95%;
     margin: 0 auto;
-    height: 55px;
+    height: 100px;
     border-style:
     solid solid double dashed;border-radius: 3px;
     border-color: #0000ff;color:black;
-    font-size: 18px;
+    font-size: 21px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .submitButton {
@@ -98,10 +93,11 @@
     bottom: 10px;
     width: 60%;
     margin: 0 auto;
-    height: 50px;
+    height: 90px;
     border-radius: 15px;
+font-size: 24px;
     color:white;
-    background-color: #E80000 ;
+    background-color: DarkOrange ;
 }
 
 </style>
@@ -110,40 +106,8 @@
 <script src="./thweb_index_files/bootstrap.min.js"></script>
 <script>
     function myFunction() {
-        document.taghide.email.focus();
-        Parse.initialize("sEpDhgZAL4gdzslpb1EfMcRpPoR2SzJlnETyAyyg", "73pfEwQG0YzHFv4PfORLyxoVzMoV3QhcdRlCeoSA");
-        //<!-- document.body.style.width = '320px';  -->
+        document.taghide._replyto.focus();
     }
-    function checkEmail(emailAddress) {
-    var sQtext = '[^\\x0d\\x22\\x5c\\x80-\\xff]';
-    var sDtext = '[^\\x0d\\x5b-\\x5d\\x80-\\xff]';
-    var sAtom = '[^\\x00-\\x20\\x22\\x28\\x29\\x2c\\x2e\\x3a-\\x3c\\x3e\\x40\\x5b-\\x5d\\x7f-\\xff]+';
-    var sQuotedPair = '\\x5c[\\x00-\\x7f]';
-    var sDomainLiteral = '\\x5b(' + sDtext + '|' + sQuotedPair + ')*\\x5d';
-    var sQuotedString = '\\x22(' + sQtext + '|' + sQuotedPair + ')*\\x22';
-    var sDomain_ref = sAtom;
-    var sSubDomain = '(' + sDomain_ref + '|' + sDomainLiteral + ')';
-    var sWord = '(' + sAtom + '|' + sQuotedString + ')';
-    var sDomain = sSubDomain + '(\\x2e' + sSubDomain + ')*';
-    var sLocalPart = sWord + '(\\x2e' + sWord + ')*';
-    var sAddrSpec = sLocalPart + '\\x40' + sDomain; // complete RFC822 email address spec
-    var sValidEmail = '^' + sAddrSpec + '$'; // as whole string
-    var reValidEmail = new RegExp(sValidEmail);
-    return reValidEmail.test(emailAddress);
-    }
-
-function youFunction() {
-    event.preventDefault();
-    if (checkEmail($("input:first").val()) === true){
-        launchUser.set("mail",$("input:first").val()); launchUser.save(null, { success: function(launchUser){
-                                                                       //alert
-                                                                       $( "span" ).text( "You are first now..." ).show().fadeOut(3000);
-                                                                       }
-                                                                       }else{
-                                                                       $( "span" ).text( "Valid Email?" ).show().fadeOut(3000);
-                                                                       }
-                                                                       }
-
 </script>
 
 </head>
@@ -152,43 +116,36 @@ function youFunction() {
     <DIV id="info_div">
         <!-- DIV 1 -->
         <DIV id="info_div_name">
- 
+		<!-- taggy -->
                     <img src="./thweb_index_files/tgsmall.png" class="app-icon img-rounded" style="float:left">
 		    <div style="text-align:center">
                     <h1>  Taghide </h1>
                      </div>
                   
-                    <div style="text-align:center;margin-left:20px;">
-                    <h3>Mobile App to 'Share Shopping with Friends'</h3>
+		<!-- heading -->
+                    <div style="text-align:center;margin-left:20px;color:#000066;">
+                    <h3>App to Share Your Shopping<br />  Grit and Fun<br /> with Friends and Family</h3>
                     </div>
-                    <!-- textbox and button -->
-                    <div style="text-align:center;">
-                        <form  name="taghide">
-                            <input type="text" class="emailTextbox" tabindex="1" name="email" placeholder="Submit your email">
+
+                 <!-- textbox and button -->
+                    <div style="text-align:center;background-color:#009999;">
+			<form name="taghide" action="//formspree.io/sanjana.gandavarapu@taghide.com"method="POST">
+                    
+                            <input type="email" class="emailTextbox" tabindex="1" name="_replyto" placeholder="@Submit your email">
                             </input>
                             
-                            <input type="submit" class="submitButton" onclick="youFunction()" value="Be First to Share">
+                            <input type="submit" class="submitButton"  value="Send App for Free!">
                             </input>
                             <br><br>
                             <span style="color:red;"></span>
                             <br>
                         </form>
                     </div>
-                    
-                    <!--
-                     <a href="http://taghide.com/app" class="app-store-badge" target="_blank">
-                     <span class="store-badge-white-text">
-                     <img src="./thweb_index_files/app-store-white-text@2x-ve7b5d0ffae4e.png">
-                     </span>
-                     </a>
-                     -->
-                    <div class="helptxt">
-                        It is Black Friday 2015. And app is Free!
+
+		<!-- add text -->
+                    <div class="helptxt"><p>
+                        *App is gauranteed free until Friday. Link to app will be sent as soon as it is available. Email is used only for this purpose and discarded safely.</p>
                     </div>
-                    
-                
-                
-           
         </DIV>
         
         <!-- DIV 2 -->
@@ -216,6 +173,7 @@ function youFunction() {
             <div style="text-align:right">
             <p>Screenshots of <strong>Taghide</strong></p>
             </div>
+
             <div >
                 <div style="float:left" >
                     <img src="./thweb_index_files/iPhone6White.png">
@@ -230,34 +188,24 @@ function youFunction() {
                     <img src="./thweb_index_files/iPhone6White(3).png">
                         </div>
             </div>
-        </DIV>
         
     </DIV>
 
     <!-- Footer -->
     <footer>
-        <div>
-            <div class="launchkit-promo col-xs-12 col-sm-4" align="right">
-                    <a href="http://taghide.com/privacy" target="_blank">Privacy
-                    </a>
-                    </div>
-        </div>
         
-        <div>
-            <div class="launchkit-promo col-xs-12 col-sm-4" align="right">
-                
-                    <a href="" target="_blank">
-                    </a>
-                    </div>
-        </div>
+            <div class="launchkit-promo col-xs-12 col-sm-4" align="left">
+                    <a href="http://taghide.com/privacy" target="_blank">Privacy</a>
+             </div>
+        
 
-      <div>
+      
           <div class="launchkit-promo col-xs-12 col-sm-4" align="right">
               <img src="./thweb_index_files/icon-v8d70a510a2c9.png">
                   <a href="https://launchkit.io/websites/?utm_campaign=Websites%20Footer&utm_medium=referral&utm_source=DblXsX6bRzo" target="_blank">Website by LaunchKit
                   </a>
           </div>
-      </div>
+      
     </footer>
 
 </div>
