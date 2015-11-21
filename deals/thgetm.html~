@@ -100,7 +100,7 @@
                   <input type="email" class="emailTextbox" tabindex="1" name="_replyto" placeholder="@Submit your email">
                   </input>
 <input type="hidden" name="_subject" value="Welcome to Taghide!" />
-<input type="hidden" name="_next" value="index.html" />
+<input type="hidden" name="_next" value="http://taghide.com/deals" />
                   <input type="submit" class="submitButton"  value="Send App for Free!">
                   </input>
                   <br><br>
