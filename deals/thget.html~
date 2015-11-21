@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0042)https://launchkit.io/websites/DblXsX6bRzo/ -->
-<html>
+<html style="text-align: center;">
     <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Taghide - Shopping with Friends</title>
         <link rel="stylesheet" href="./thweb_index_files/screenshots-v30db461669a8.css" data-bundle="screenshots">
@@ -21,22 +21,24 @@
 <link href="./thweb_index_files/css" rel="stylesheet" type="text/css">
 
 <style type="text/css">
-#contact_table_data {
-    width:300px;
-    height:inherit;
-    background-color:#99cc33;
-    max-width:400px;
-}
+
 #info_div {
-    width:800px;
-    height:auto;
+ 	position: absolute;
+  
+    left: 20%;
+
+    width: 800px;
+    height: 1000px;
+ 
+  
+    
 }
 
 #info_div_name {
     width:auto;
     height:auto;
     padding: 5px 0px 5px 10px;
-    
+    float:left;
     display: inline-block;
 }
 
@@ -44,8 +46,8 @@
     width:auto;
     height:auto;
     padding: 5px 10px 5px 0px;
-   
-    
+    float:left;
+    display: inline-block;
 }
 
 #info_div_note {
@@ -73,7 +75,7 @@
         top: 0px;
         color: purple;
         text-align:center;
-	font-size: 16px;
+	font-size: 14px;
         font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     }
 .emailTextbox {
@@ -111,24 +113,23 @@ font-size: 24px;
 </script>
 
 </head>
-<body onload="myFunction()">
-    <div id="skit-controller"><div id="public-landing-page" class="template-6">
+<body   onload="myFunction()">
     <DIV id="info_div">
         <!-- DIV 1 -->
         <DIV id="info_div_name">
 		<!-- taggy -->
-                    <img src="./thweb_index_files/tgsmall.png" class="app-icon img-rounded" style="float:left">
+                    <img src="./thweb_index_files/taggySpeak.png" class="app-icon img-rounded" style="float:left">
 		    <div style="text-align:center">
                     <h1>  Taghide </h1>
                      </div>
                   
 		<!-- heading -->
-                    <div style="text-align:center;margin-left:20px;color:#000066;">
-                    <h3>App to Share Your Shopping<br />  Grit and Fun<br /> with Friends and Family</h3>
+                    <div style="text-align:center;margin-left:10px;color:#000066;font-size:18px">
+                    <p>App to Share Your Shopping  Grit and Fun<br /> with Friends and Family</p>
                     </div>
 
                  <!-- textbox and button -->
-                    <div style="text-align:center;background-color:#009999;">
+                    <div style="text-align:center;background-color:#009999;border-radius: 10px;">
 			<form name="taghide" action="//formspree.io/sanjana.gandavarapu@taghide.com"method="POST">
                     
                             <input type="email" class="emailTextbox" tabindex="1" name="_replyto" placeholder="@Submit your email">
@@ -147,13 +148,32 @@ font-size: 24px;
                         *App is gauranteed free until Friday. Link to app will be sent as soon as it is available. Email is used only for this purpose and discarded safely.</p>
                     </div>
         </DIV>
-
         
         <!-- DIV 2 -->
+        <DIV id="info_div_time" style="margin-top:20px;margin-left:40px">
+            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item next left">
+                        <img src="./thweb_index_files/iPhone6White.png" class="screenshot" alt="Screenshot of Taghide">
+                            </div>
+                    <div class="item">
+                        <img src="./thweb_index_files/iPhone6White(1).png" class="screenshot" alt="Screenshot of Taghide">
+                            </div>
+                    <div class="item">
+                        <img src="./thweb_index_files/iPhone6White(2).png" class="screenshot" alt="Screenshot of Taghide">
+                            </div>
+                    <div class="item active left">
+                        <img src="./thweb_index_files/iPhone6White(3).png" class="screenshot" alt="Screenshot of Taghide">
+                            </div>
+                </div>
+            </div>
+        </DIV>
+        
+        <!-- DIV 3 -->
         <DIV  id="info_div_note">
-           <!-- <div style="text-align:right">
+            <div style="text-align:right;border-top: solid 	;">
             <p>Screenshots of <strong>Taghide</strong></p>
-            </div> -->
+            </div>
 
             <div >
                 <div style="float:left" >
@@ -162,16 +182,15 @@ font-size: 24px;
                 <div style="float:left" >
                     <img src="./thweb_index_files/iPhone6White(1).png">
                         </div>
-                <!-- <div style="float:left" >
+                <div style="float:left" >
                     <img src="./thweb_index_files/iPhone6White(2).png">
-                        </div> -->
+                        </div>
                 <div>
                     <img src="./thweb_index_files/iPhone6White(3).png">
-                        </div> 
+                        </div>
             </div>
         
-      </DIV>
-
+    </DIV>
 
     <!-- Footer -->
     <footer>
@@ -193,7 +212,7 @@ font-size: 24px;
 </div>
 
 
-</div>
+
 
 
 </body></html>
