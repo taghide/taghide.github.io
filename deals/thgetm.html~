@@ -26,7 +26,7 @@ position:absolute;
 top:0;
 bottom:0;
 left:0;
-width:420px;
+width:400px;
          }
          #info_div_name {
          width:auto;
@@ -50,6 +50,16 @@ width:420px;
          font-size: 10px;
          font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
          }
+.userArea{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+text-align:center;
+border-radius: 10px;
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
          .emailTextbox {
          position: relative;
          width: 95%;
@@ -93,18 +103,18 @@ width:420px;
 <div style="float:left;margin-top:35px;">
             <img src="./thweb_index_files/taggySpeak90.png" class="app-icon img-rounded">
 </div>
-            <div style="text-align:center;margin-left:10px;color:black;font-size:26px;">
-               <p>  Taghide </p>
-		<p style="text-align:center;margin-left:10px;color:#000066;font-size:18px;">App to Share Your Shopping  Grit and Fun with Friends and Family</p>
+            <div style="text-align:center;color:#990000;font-size:26px;font-family:"Times New Roman";>
+               <p><strong>  Taghide </strong></p>
+		<p style="text-align:center;margin-left:10px;color:#101010 ;font-size:14px;">App to share your shopping grit and fun with friends and family, these holidays!</p>
             </div>
             <!-- heading -->
 <!--
             <div style="text-align:center;margin-left:10px;color:#000066;font-size:18px;">
-               <p>App to Share Your Shopping  Grit and Fun with Friends and Family</p>
+               <p>App to share your shopping grit and fun with friends and family, these holidays!</p>
             </div>
 -->
             <!-- textbox and button -->
-            <div style="text-align:center;background-color:#009999;border-radius: 10px;">
+            <div class="userArea">
                <form name="taghide" action="//formspree.io/jtag@taghide.com"method="POST">
                   <input type="email" class="emailTextbox" tabindex="1" name="_replyto" placeholder="#Submit your mobile ">
                   </input>
