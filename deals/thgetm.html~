@@ -158,6 +158,22 @@ p.serif {
         
     </DIV>
 
+    <!-- Footer -->
+    <footer>
+        
+            <div class="launchkit-promo col-xs-12 col-sm-4" align="left">
+                    <a href="http://taghide.com/privacy" target="_blank">Privacy</a>
+             </div>
+        
+
+      
+          <div class="launchkit-promo col-xs-12 col-sm-4" align="right">
+              <img src="./thweb_index_files/icon-v8d70a510a2c9.png">
+                  <a href="https://launchkit.io/websites/?utm_campaign=Websites%20Footer&utm_medium=referral&utm_source=DblXsX6bRzo" target="_blank">Website by LaunchKit
+                  </a>
+          </div>
+      
+    </footer>
 
 </div>
 
