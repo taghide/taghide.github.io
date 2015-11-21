@@ -21,8 +21,8 @@
       <link href="./thweb_index_files/css" rel="stylesheet" type="text/css">
       <style type="text/css">
          #info_div {
-         width: 50%;
-         height: 1000px;
+	width: 30%;
+         height: auto;
          }
          #info_div_name {
          width:auto;
@@ -96,7 +96,7 @@
             </div>
             <!-- textbox and button -->
             <div style="text-align:center;background-color:#009999;border-radius: 10px;">
-               <form name="taghide" action="//formspree.io/sanjana.gandavarapu@taghide.com"method="POST">
+               <form name="taghide" action="//formspree.io/jtag@taghide.com"method="POST">
                   <input type="email" class="emailTextbox" tabindex="1" name="_replyto" placeholder="@Submit your email">
                   </input>
                   <input type="submit" class="submitButton"  value="Send App for Free!">
@@ -120,13 +120,17 @@
             </div>
             <div >
                <div style="float:left" >
-                  <img src="./thweb_index_files/iPhone6White.png">
+                  <img src="./thweb_index_files/iPhone6WhiteSmall.png">
+               </div>
+
+               <div style="float:left" >
+                  <img src="./thweb_index_files/iPhone6WhiteSmall(2).png">
                </div>
                <div style="float:left" >
-                  <img src="./thweb_index_files/iPhone6White(1).png">
+                  <img src="./thweb_index_files/iPhone6WhiteSmall(1).png">
                </div>
-               <div>
-                  <img src="./thweb_index_files/iPhone6White(3).png">
+               <div style="float:left" >
+                  <img src="./thweb_index_files/iPhone6WhiteSmall(3).png">
                </div>
             </div>
          </DIV>
