@@ -74,5 +74,4 @@ table td {
 	border-bottom:1px solid #e0e0e0;
 	border-left: 1px solid #e0e0e0;
 }
-table tr td:first-child { width: 1em; }
-table tr td:second-child { width: 60%; }
+
