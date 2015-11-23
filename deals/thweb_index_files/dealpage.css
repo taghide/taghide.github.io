@@ -50,7 +50,7 @@ table {
 	background:#eaebec;
 	margin:1px;
 	border:#ccc 1px solid;
-	width:100%;
+
 
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
@@ -75,4 +75,4 @@ table td {
 	border-left: 1px solid #e0e0e0;
 }
 table tr td:first-child { width: 10em; }
-table tr td:second-child { width: 40em; }
+
