@@ -1,6 +1,6 @@
 div.taggy1 {
     padding: 2px;
-    border-bottom: 1px solid blue;
+
     height: auto;
     width: 320px;;
     text-align: center;
@@ -13,7 +13,6 @@ color:blue;
     width: 280px;
 height:25px;
 padding-bottom:4px;
-
 }
 div.taggydesc {
     text-align: center;
@@ -49,8 +48,9 @@ table {
 	font-size:12px;
 	text-shadow: 1px 1px 0px #fff;
 	background:#eaebec;
-	margin:2px;
+	margin:1px;
 	border:#ccc 1px solid;
+	width:100%;
 
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
@@ -69,9 +69,10 @@ table tr:nth-child(2n) {
 }
 
 table td {
-	padding:6px;
+	padding:1px;
 	border-top: 1px solid #ffffff;
 	border-bottom:1px solid #e0e0e0;
 	border-left: 1px solid #e0e0e0;
 }
-table tr td:first-child { width: 10em; }
+table tr td:first-child { width: 1em; }
+table tr td:second-child { width: 60%; }
