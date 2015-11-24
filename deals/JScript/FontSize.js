@@ -1,5 +1,5 @@
-<SCRIPT LANGUAGE="JavaScript">
-function SrchSubmit2() 
+<script>
+function SrchSubmit() 
 {
 	var valu= document.getElementById("valu").value;
 	var pattern = valu.toLowerCase();
@@ -25,10 +25,10 @@ function SrchSubmit2()
 				}else{
 					col.style.backgroundColor = "#eaebec";
 				}
-				col.style.color = "black";
 			}
 
    		}  
 	}
-}
-</SCRIPT>
+};
+</script>
+

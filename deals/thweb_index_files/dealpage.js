@@ -1,5 +1,5 @@
 <SCRIPT LANGUAGE="JavaScript">
-function SrchSubmit2() 
+function SrchSubmit() 
 {
 	var valu= document.getElementById("valu").value;
 	var pattern = valu.toLowerCase();
