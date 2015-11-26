@@ -884,12 +884,6 @@ $("img").error(function () {
   <div class="desc">Staples</div>
 </div>
 <div class="img">
-  <a target="" href="Target.html">
-    <img alt=" " src="./store_image_files/target1.jpg">
-  </a>
-  <div class="desc">Target</div>
-</div>
-<div class="img">
   <a target="" href="Toys-R-Us.html">
     <img alt=" " src="./store_image_files/toys-r-us.png">
   </a>

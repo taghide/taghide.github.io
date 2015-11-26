@@ -1,0 +1,258 @@
+1,141c1,115
+< 6PM.html
+< AAFES.html
+< AAFES-Sat.html
+< AAFES-TG.html
+< Academy-Sports.html
+< Ace-Hardware.html
+< Acme-Tools.html
+< AC-Moore.html
+< Amazon.html
+< Badcock.html
+< Barnes-Noble.html
+< Bass-Pro-Shops.html
+< bath-and-body-works.html
+< Bealls.html
+< Belk.html
+< Best-Buy.html
+< Big-5-Sport.html
+< Big-Lots.html
+< BJs-Wholesale.html
+< Bonton.html
+< Boscovs.html
+< Burkes-Outlet.html
+< Burlington-Coat-Factory.html
+< Cabelas.html
+< Callaway-Apparel.html
+< Campmor.html
+< Carters.html
+< Chris-and-Banks.html
+< Costco.html
+< Craft-Warehouse.html
+< Cubavera.html
+< CVS.html
+< DC-Shoes.html
+< Dell-Home.html
+< Dell-Small-Busi.html
+< Dicks-Sport.html
+< Dollar-General.html
+< DSW.html
+< Dunhams-Sports-TG.html
+< eBay.html
+< eBay-TG.html
+< Express.html
+< Family-Dollar.html
+< Farm-and-Fleet.html
+< Farm-and-Fleet-TG.html
+< Finish-Line-Online.html
+< Five-Below.html
+< FredMeyer.html
+< Freds.html
+< Frys-Elec.html
+< GameStop.html
+< Gander-Mountain.html
+< Golf-Galaxy.html
+< Gordmans.html
+< Groupon.html
+< Guitar-Center.html
+< Half-Price-Books.html
+< Hancock-Fabrics.html
+< Harbor-Freight.html
+< harman-kardon.html
+< Hastings.html
+< HEB.html
+< hhgregg.html
+< HP.html
+< JCPenney.html
+< Joann-Fabrics.html
+< Jos-A-Bank.html
+< Justice.html
+< Kmart.html
+< Kmart-TG.html
+< Kohls.html
+< Living-Social.html
+< Living-Spaces.html
+< Lowes.html
+< Macys.html
+< Macys-TG.html
+< Marine-Corps-Exchange.html
+< MC-Sports.html
+< Meijer.html
+< Meijer-Sat.html
+< Meijer-TG.html
+< Menards.html
+< Michaels.html
+< Micro-Center.html
+< Microsoft-Store.html
+< Mills-Fleet-Farm.html
+< Modells.html
+< Musicians-Friend.html
+< Navy-Exchange.html
+< NewEgg.html
+< Nikon.html
+< Office-Depot.html
+< Old-Navy.html
+< Olympia-Sports.html
+< Original-Penguin.html
+< Overstock.html
+< Panasonic.html
+< PepBoys.html
+< Perry-Ellis.html
+< Petco.html
+< Pet-Smart.html
+< Pet-Supplies-Plus.html
+< Pier-1.html
+< Prom-Girl.html
+< Quill.html
+< Rack-Room-Shoes.html
+< RadioShack.html
+< Rakuten.html
+< Raymour-Flanigan.html
+< Reeds-Jewelers.html
+< Rite-Aid.html
+< Rural-King.html
+< Sams-Club.html
+< Sears-Hometown.html
+< Sears.html
+< Sears-Outlet.html
+< Sephora.html
+< Shopko.html
+< Sierra-Trading-Post.html
+< Sigma-Beauty.html
+< Simply-Dresses.html
+< Sports-Authority.html
+< Sportsmans-Warehouse.html
+< Stage.html
+< Staples.html
+< Target.html
+< The-Body-Shop.html
+< This-Girl.html
+< Toys-R-Us.html
+< Tractor-Supply.html
+< True-Value.html
+< ULTA.html
+< US-Mattress.html
+< Value-City.html
+< Verizon.html
+< Walgreens.html
+< Walmart.html
+< West-Marine.html
+< Woman-Within.html
+< Zales.html
+< 
+---
+>   <a target="" href="index.html">
+>   <a target="" href="Academy-Sports.html">
+>   <a target="" href="Ace-Hardware.html">
+>   <a target="" href="Acme-Tools.html">
+>   <a target="" href="AC-Moore.html">
+>   <a target="" href="Amazon.html">
+>   <a target="" href="Badcock.html">
+>   <a target="" href="Barnes-Noble.html">
+>   <a target="" href="Bass-Pro-Shops.html">
+>   <a target="" href="Bealls.html">
+>   <a target="" href="Belk.html">
+>   <a target="" href="Best-Buy.html">
+>   <a target="" href="Big-Lots.html">
+>   <a target="" href="BJs-Wholesale.html">
+>   <a target="" href="Bonton.html">
+>   <a target="" href="Boscovs.html">
+>   <a target="" href="Burkes-Outlet.html">
+>   <a target="" href="Burlington-Coat-Factory.html">
+>   <a target="" href="Cabelas.html">
+>   <a target="" href="Callaway-Apparel.html">
+>   <a target="" href="Campmor.html">
+>   <a target="" href="Carters.html">
+>   <a target="" href="Christopher-and-Banks.html">
+>   <a target="" href="Costco.html">
+>   <a target="" href="Craft-Warehouse.html">
+>   <a target="" href="Cubavera.html">
+>   <a target="" href="CVS.html">
+>   <a target="" href="DC-Shoes.html">
+>   <a target="" href="Dell-Home.html">
+>   <a target="" href="Dell-Small-Business.html">
+>   <a target="" href="Dicks-Sporting-Goods.html">
+>   <a target="" href="Dollar-General.html">
+>   <a target="" href="eBay-Thanksgiving.html">
+>   <a target="" href="Express.html">
+>   <a target="" href="Family-Dollar.html">
+>   <a target="" href="Farm-and-Fleet-Thanksgiving.html">
+>   <a target="" href="Finish-Line-Online.html">
+>   <a target="" href="Five-Below.html">
+>   <a target="" href="FredMeyer.html">
+>   <a target="" href="Freds.html">
+>   <a target="" href="Frys-Electronics.html">
+>   <a target="" href="GameStop.html">
+>   <a target="" href="Gander-Mountain.html">
+>   <a target="" href="Golf-Galaxy.html">
+>   <a target="" href="Gordmans.html">
+>   <a target="" href="Groupon.html">
+>   <a target="" href="Guitar-Center.html">
+>   <a target="" href="Half-Price-Books.html">
+>   <a target="" href="Hancock-Fabrics.html">
+>   <a target="" href="Harbor-Freight.html">
+>   <a target="" href="harman-kardon.html">
+>   <a target="" href="HEB.html">
+>   <a target="" href="hhgregg.html">
+>   <a target="" href="HP.html">
+>   <a target="" href="JCPenney.html">
+>   <a target="" href="Joann-Fabrics.html">
+>   <a target="" href="Jos-A-Bank.html">
+>   <a target="" href="Kmart-Thanksgiving.html">
+>   <a target="" href="Kohls.html">
+>   <a target="" href="Lowes.html">
+>   <a target="" href="Macys-Thanksgiving.html">
+>   <a target="" href="Marine-Corps-Exchange.html">
+>   <a target="" href="MC-Sports.html">
+>   <a target="" href="Meijer-Thanksgiving.html">
+>   <a target="" href="Michaels.html">
+>   <a target="" href="Microsoft-Store.html">
+>   <a target="" href="Modells.html">
+>   <a target="" href="Musicians-Friend.html">
+>   <a target="" href="Navy-Exchange.html">
+>   <a target="" href="NewEgg.html">
+>   <a target="" href="Nikon.html">
+>   <a target="" href="NY & Company.html">
+>   <a target="" href="Office-Depot.html">
+>   <a target="" href="Old-Navy.html">
+>   <a target="" href="Olympia-Sports.html">
+>   <a target="" href="Original-Penguin.html">
+>   <a target="" href="Overstock.html">
+>   <a target="" href="Panasonic.html">
+>   <a target="" href="PepBoys.html">
+>   <a target="" href="Perry-Ellis.html">
+>   <a target="" href="Petco.html">
+>   <a target="" href="Pet-Smart.html">
+>   <a target="" href="Pet-Supplies-Plus.html">
+>   <a target="" href="Pier-1.html">
+>   <a target="" href="Rack-Room-Shoes.html">
+>   <a target="" href="RadioShack.html">
+>   <a target="" href="Rakuten.html">
+>   <a target="" href="Raymour-Flanigan.html">
+>   <a target="" href="Reeds-Jewelers.html">
+>   <a target="" href="Rite-Aid.html">
+>   <a target="" href="Rural-King.html">
+>   <a target="" href="Sams-Club.html">
+>   <a target="" href="Sears.html">
+>   <a target="" href="Sears-Appliance-Hardware-Featured-Sale.html">
+>   <a target="" href="Sears-Mattress-Featured-Sale.csv.html">
+>   <a target="" href="Sears-Hometown.html">
+>   <a target="" href="Sears-Outlet.html">
+>   <a target="" href="Sephora.html">
+>   <a target="" href="Shopko.html">
+>   <a target="" href="Sierra-Trading-Post.html">
+>   <a target="" href="Sigma-Beauty.html">
+>   <a target="" href="Sports-Authority.html">
+>   <a target="" href="Sportsmans-Warehouse.html">
+>   <a target="" href="Stage.html">
+>   <a target="" href="Staples.html">
+>   <a target="" href="Toys-R-Us.html">
+>   <a target="" href="Tractor-Supply.html">
+>   <a target="" href="True-Value.html">
+>   <a target="" href="ULTA.html">
+>   <a target="" href="Value-City.html">
+>   <a target="" href="Walgreens.html">
+>   <a target="" href="Walmart.html">
+>   <a target="" href="West-Marine.html">
+>   <a target="" href="Woman-Within.html">
+>   <a target="" href="Zales.html">
