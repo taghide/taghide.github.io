@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://launchkit.io/websites/DblXsX6bRzo/ -->
+<html style="text-align: center;">
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Include meta tag to ensure proper rendering and touch zooming 
+<meta name="viewport" content="width=device-width, initial-scale=3"> -->
+      <title>Taghide - Shopping with Friends</title>
+
+<style>
+div.taggy {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid red;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+div.taggy1 {
+    padding: 2px;
+    border-bottom: 1px solid gray;
+    height: auto;
+    width: 250px;;
+    text-align: center;
+}
+div.taggyheader {
+    text-align: center;
+    font-weight: normal;
+font-size:21px;
+color:#F00000 ;
+    width: 250px;
+height:25px;
+padding-bottom:2px;
+
+}
+div.taggydesc {
+    text-align: center;
+    font-weight: normal;
+font-size:12px;
+color:blue;
+    width: 250px;
+height:25px;
+}
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 1px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+font-size:12px;
+    width: 60px;
+height:30px;
+    margin: 0px;
+ 
+}
+div.taggyDesc {
+    text-align: center;
+    font-weight: normal;
+font-size:12px;
+color:blue;
+    width: 60px;
+height:16px;
+    margin-top: 8px;
+}
+
+td {
+
+    vertical-align: top;
+}
+</style>
+</head><body style="width:320px;margin: 0 auto;">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+$("img").error(function () {
+  $(this).unbind("error").attr("src", "shop.png");
+});
+</script>
+
+<div class="taggy1">
+<div style="float:left"
+  <a target="" href="index.html">
+    <img alt=" " src="taggy-50.png">
+  </a>
+</div>
+<div style="color:#181818;float:left;font-size:12px;">BF deals by</div>
+<div class="taggyheader">Taghide</div>
+<div class="taggydesc">App to share your shopping fun and grit! Coming soon!!</div>
+</div>	
+
+<DIV>	
+<!-- 
+<div class="img">
+  <a target="" href="ABT.htm">
+    <img alt=" " src="./store_image_files/abt.png">
+  </a>
+  <div class="desc">ABT</div>
+</div>
+-->
+<div class="img">
+  <a target="" href="Academy-Sports.html">
+    <img alt=" " src="./store_image_files/academy.png">
+  </a>
+  <div class="desc">Academy Sports</div>
+</div>
+<div class="img">
+  <a target="" href="Ace-Hardware.html">
+    <img alt=" " src="./store_image_files/ace-hardware.png">
+  </a>
+  <div class="desc">Ace Hardware</div>
+</div>
+<div class="img">
+  <a target="" href="Acme-Tools.html">
+    <img alt=" " src="./store_image_files/acmetools.png">
+  </a>
+  <div class="desc">Acme Tools</div>
+</div>
+<div class="img">
+  <a target="" href="AC-Moore.html">
+    <img alt=" " src="./store_image_files/acmoore.png">
+  </a>
+  <div class="desc">AC Moore</div>
+</div>
+<div class="img">
+  <a target="" href="Amazon.html">
+    <img alt=" " src="./store_image_files/amazon.png">
+  </a>
+  <div class="desc">Amazon</div>
+</div>
+<!-- 
+<div class="img">
+  <a target="" href="Adorama.htm">
+    <img alt=" " src="./store_image_files/adorama.png">
+  </a>
+  <div class="desc">Adorama</div>
+</div>
+<div class="img">
+  <a target="" href="annaslinens.htm">
+    <img alt=" " src="./store_image_files/annas-linens.png">
+  </a>
+  <div class="desc">Annas Linens</div>
+</div>
+<div class="img">
+  <a target="" href="applestore.htm">
+    <img alt=" " src="./store_image_files/apple-store.png">
+  </a>
+  <div class="desc">Apple Store</div>
+</div>
+<div class="img">
+  <a target="" href="ashleyhomestore.htm">
+    <img alt=" " src="./store_image_files/ashleyhomestore.png">
+  </a>
+  <div class="desc">Ashley Home</div>
+</div>
+-->
+<div class="img">
+  <a target="" href="Badcock.html">
+    <img alt=" " src="./store_image_files/Badcock.png">
+  </a>
+  <div class="desc">Badcock</div>
+</div>
+<div class="img">
+  <a target="" href="Barnes-Noble.html">
+    <img alt=" " src="./store_image_files/barnesandnoble.png">
+  </a>
+  <div class="desc">Barnes&Noble</div>
+</div>
+<div class="img">
+  <a target="" href="Bass-Pro-Shops.html">
+    <img alt=" " src="./store_image_files/bass-pro-shops.png">
+  </a>
+  <div class="desc">Bass Pro Shops</div>
+</div>
+<div class="img">
+  <a target="" href="Bealls.html">
+    <img alt=" " src="./store_image_files/bealls.png">
+  </a>
+  <div class="desc">Bealls</div>
+</div>
+<!--		
+<div class="img">
+  <a target="" href="bath-and-body-works.htm">
+    <img alt=" " src="./store_image_files/bath-body-works.png">
+  </a>
+  <div class="desc">Bath&Body</div>
+</div>
+
+<div class="img">
+  <a target="" href="bed-bath-beyond.htm">
+    <img alt=" " src="./store_image_files/bed-bath-beyond.png">
+  </a>
+  <div class="desc">Bed Bath&Beyond</div>
+</div>
+-->
+<div class="img">
+  <a target="" href="Belk.html">
+    <img alt=" " src="./store_image_files/belk_m.png">
+  </a>
+  <div class="desc">Belk</div>
+</div>
+<div class="img">
+  <a target="" href="Best-Buy.html">
+    <img alt=" " src="./store_image_files/best-buy.png">
+  </a>
+  <div class="desc">Best Buy</div>
+</div>
+
+<div class="img">
+  <a target="" href="Big-5-Sporting-Goods">
+    <img alt=" " src="./store_image_files/big5_m.png">
+  </a>
+  <div class="desc">Big 5</div>
+</div>
+
+	
+<div class="img">
+  <a target="" href="Big-Lots.html">
+    <img alt=" " src="./store_image_files/biglots.png">
+  </a>
+  <div class="desc">Big Lots</div>
+</div>	
+<div class="img">
+  <a target="" href="BJs-Wholesale.html">
+    <img alt=" " src="./store_image_files/bjs-wholesale-club.png">
+  </a>
+  <div class="desc">BJs</div>
+</div>
+	
+<div class="img">
+  <a target="" href="Bonton.html">
+    <img alt=" " src="./store_image_files/bon-ton-store.png">
+  </a>
+  <div class="desc">Bonton</div>
+</div>
+<div class="img">
+  <a target="" href="Boscovs.html">
+    <img alt=" " src="./store_image_files/boscovs.png">
+  </a>
+  <div class="desc">Boscovs</div>
+</div>
+<div class="img">
+  <a target="" href="Burkes-Outlet.html">
+    <img alt=" " src="./store_image_files/BurkesOutletLogo.png">
+  </a>
+  <div class="desc">Burkes-Outlet</div>
+</div>
+<div class="img">
+  <a target="" href="Burlington-Coat-Factory.html">
+    <img alt=" " src="./store_image_files/burlington.png">
+  </a>
+  <div class="desc">Burlington Coat</div>
+</div>
+<div class="img">
+  <a target="" href="Cabelas.html">
+    <img alt=" " src="./store_image_files/cabelas.png">
+  </a>
+  <div class="desc">Cabelas</div>
+</div>
+
+	
+<div class="img">
+  <a target="" href="Callaway-Apparel.html">
+    <img alt=" " src="./store_image_files/callaway.png">
+  </a>
+  <div class="desc">Callaway</div>
+</div>
+<div class="img">
+  <a target="" href="Campmor.html">
+    <img alt=" " src="./store_image_files/campmor.png">
+  </a>
+  <div class="desc">Campmor</div>
+</div>	
+<div class="img">
+  <a target="" href="Carters.html">
+    <img alt=" " src="./store_image_files/carters.png">
+  </a>
+  <div class="desc">Carters</div>
+</div>
+<div class="img">
+  <a target="" href="Christopher-and-Banks.html">
+    <img alt=" " src="./store_image_files/christopherbanks.png">
+  </a>
+  <div class="desc">Chris&Banks</div>
+</div>
+
+
+<div class="img">
+  <a target="" href="Costco.html">
+    <img alt=" " src="./store_image_files/costco.png">
+  </a>
+  <div class="desc">Costco</div>
+</div>
+	
+<div class="img">
+  <a target="" href="Craft-Warehouse.html">
+    <img alt=" " src="./store_image_files/craftwarehouse.png">
+  </a>
+  <div class="desc">Craft Ware</div>
+</div>
+<div class="img">
+  <a target="" href="Cubavera.html">
+    <img alt=" " src="./store_image_files/cubavera.png">
+  </a>
+  <div class="desc">Cubavera</div>
+</div>
+<div class="img">
+  <a target="" href="CVS.html">
+    <img alt=" " src="./store_image_files/cvs.png">
+  </a>
+  <div class="desc">CVS</div>
+</div>	
+<div class="img">
+  <a target="" href="DC-Shoes.html">
+    <img alt=" " src="./store_image_files/dc-shoes.png">
+  </a>
+  <div class="desc">DC Shoes</div>
+</div>
+<div class="img">
+  <a target="" href="Dell-Home.html">
+    <img alt=" " src="./store_image_files/dell-small-business.png">
+  </a>
+  <div class="desc">Dell Home</div>
+</div>
+
+<div class="img">
+  <a target="" href="Dell-Small-Business.html">
+    <img alt=" " src="./store_image_files/dell-small-business.png">
+  </a>
+  <div class="desc">Small Business</div>
+</div>
+
+
+<div class="img">
+  <a target="" href="Dicks-Sporting-Goods.html">
+    <img alt=" " src="./store_image_files/dickssportinggoods-com.png">
+  </a>
+  <div class="desc">Dicks</div>
+</div>
+
+
+<div class="img">
+  <a target="" href="Dollar-General.html">
+    <img alt=" " src="./store_image_files/dollar-general.png">
+  </a>
+  <div class="desc">Dollar Gen</div>
+</div>
+<!--
+<div class="img">
+  <a target="" href="dollartreecom.htm">
+    <img alt=" " src="./store_image_files/dollartree-com.png">
+  </a>
+  <div class="desc">Dollar Tree</div>
+</div>
+<div class="img">
+  <a target="" href="DSW.htm">
+    <img alt=" " src="./store_image_files/dsw.png">
+  </a>
+  <div class="desc">DSW</div>
+</div>
+<div class="img">
+  <a target="" href="dunhams.htm">
+    <img alt=" " src="./store_image_files/dunhams.png">
+  </a>
+  <div class="desc">Dunhams</div>
+</div>	
+<div class="img">
+  <a target="" href="exchange.htm">
+    <img alt=" " src="./store_image_files/exchange.png">
+  </a>
+  <div class="desc">Exchange</div>
+</div>
+-->
+<div class="img">
+  <a target="" href="eBay-Thanksgiving.html">
+    <img alt=" " src="./store_image_files/ebay.png">
+  </a>
+  <div class="desc">eBay</div>
+</div>	
+<div class="img">
+  <a target="" href="Express.html">
+    <img alt=" " src="./store_image_files/express.png">
+  </a>
+  <div class="desc">Express</div>
+</div>
+
+
+<div class="img">
+  <a target="" href="Family-Dollar.html">
+    <img alt=" " src="./store_image_files/family-dollar.png">
+  </a>
+  <div class="desc">Family $</div>
+</div>
+<div class="img">
+  <a target="" href="Farm-and-Fleet-Thanksgiving.html">
+    <img alt=" " src="./store_image_files/farmfleet.png">
+  </a>
+  <div class="desc">Farm&Fleet</div>
+</div>
+<div class="img">
+  <a target="" href="Finish-Line-Online.html">
+    <img alt=" " src="./store_image_files/finishline.png">
+  </a>
+  <div class="desc">Finish Line</div>
+</div>
+<div class="img">
+  <a target="" href="Five-Below.html">
+    <img alt=" " src="./store_image_files/fivebelow.png">
+  </a>
+  <div class="desc">5 Below</div>
+</div>
+
+<div class="img">
+  <a target="" href="FredMeyer.html">
+    <img alt=" " src="./store_image_files/FredMeyer.png">
+  </a>
+  <div class="desc">FredMeyer</div>
+</div>
+<div class="img">
+  <a target="" href="Freds.html">
+    <img alt=" " src="./store_image_files/Freds.png">
+  </a>
+  <div class="desc">Freds</div>
+</div>
+<div class="img">
+  <a target="" href="Frys-Electronics.html">
+    <img alt=" " src="./store_image_files/frys.png">
+  </a>
+  <div class="desc">Frys</div>
+</div>
+
+<div class="img">
+  <a target="" href="GameStop.html">
+    <img alt=" " src="./store_image_files/gamestop.png">
+  </a>
+  <div class="desc">GameStop</div>
+</div>
+
+
+<div class="img">
+  <a target="" href="Gander-Mountain.html">
+    <img alt=" " src="./store_image_files/gander.png">
+  </a>
+  <div class="desc">Gander Mountain</div>
+</div>
+<div class="img">
+  <a target="" href="Golf-Galaxy.html">
+    <img alt=" " src="./store_image_files/Golf-Galaxy.png">
+  </a>
+  <div class="desc">Golf-Galaxy</div>
+</div>
+<div class="img">
+  <a target="" href="Gordmans.html">
+    <img alt=" " src="./store_image_files/gordmans.png">
+  </a>
+  <div class="desc">Gordmans</div>
+</div>
+<div class="img">
+  <a target="" href="Groupon.html">
+    <img alt=" " src="./store_image_files/groupon.png">
+  </a>
+  <div class="desc">Groupon</div>
+</div>
+<div class="img">
+  <a target="" href="Guitar-Center.html">
+    <img alt=" " src="./store_image_files/guitar-center.png">
+  </a>
+  <div class="desc">Guitar-Center</div>
+</div>
+
+<div class="img">
+  <a target="" href="Half-Price-Books.html">
+    <img alt=" " src="./store_image_files/halfprice.png">
+  </a>
+  <div class="desc">1/2 Price Books</div>
+</div>
+
+<div class="img">
+  <a target="" href="Hancock-Fabrics.html">
+    <img alt=" " src="./store_image_files/hancock.png">
+  </a>
+  <div class="desc">Hancock Fabrics</div>
+</div>
+
+<div class="img">
+  <a target="" href="Harbor-Freight.html">
+    <img alt=" " src="./store_image_files/Harbor-Freight.png">
+  </a>
+  <div class="desc">Harbor Freight</div>
+</div>
+<div class="img">
+  <a target="" href="harman-kardon.html">
+    <img alt=" " src="./store_image_files/Harman-Kardon.png">
+  </a>
+  <div class="desc">Harman Kardon</div>
+</div>
+
+<div class="img">
+  <a target="" href="HEB.html">
+    <img alt=" " src="./store_image_files/HEB.png">
+  </a>
+  <div class="desc">HEB</div>
+</div>
+
+<div class="img">
+  <a target="" href="hhgregg.html">
+    <img alt=" " src="./store_image_files/hhgregg.png">
+  </a>
+  <div class="desc">hhgregg</div>
+</div>
+<!--
+<div class="img">
+  <a target="" href="homedepot.htm">
+    <img alt=" " src="./store_image_files/home-depot.png">
+  </a>
+  <div class="desc">Home Depot</div>
+</div>
+-->		
+<div class="img">
+  <a target="" href="HP.html">
+    <img alt=" " src="./store_image_files/HP.png">
+  </a>
+  <div class="desc">HP</div>
+</div>
+
+<div class="img">
+  <a target="" href="JCPenney.html">
+    <img alt=" " src="./store_image_files/jcp.png">
+  </a>
+  <div class="desc">JCPenney</div>
+</div>
+<div class="img">
+  <a target="" href="Joann-Fabrics.html">
+    <img alt=" " src="./store_image_files/Joann-Fabrics.png">
+  </a>
+  <div class="desc">Joann Fabrics</div>
+</div>
+<div class="img">
+  <a target="" href="Jos-A-Bank.html">
+    <img alt=" " src="./store_image_files/Jos-A-Bank.png">
+  </a>
+  <div class="desc">Jos A Bank</div>
+</div>
+<div class="img">
+  <a target="" href="Kmart-Thanksgiving.html">
+    <img alt=" " src="./store_image_files/Kmart.png">
+  </a>
+  <div class="desc">Kmart</div>
+</div>
+
+
+<div class="img">
+  <a target="" href="Kohls.html">
+    <img alt=" " src="./store_image_files/kohls.png">
+  </a>
+  <div class="desc">Kohls</div>
+</div>
+
+
+<div class="img">
+  <a target="" href="Lowes.html">
+    <img alt=" " src="./store_image_files/Lowes.png">
+  </a>
+  <div class="desc">Lowes</div>
+</div>
+
+<div class="img">
+  <a target="" href="Macys-Thanksgiving.html">
+    <img alt=" " src="./store_image_files/macys.png">
+  </a>
+  <div class="desc">Macys</div>
+</div>
+
+<div class="img">
+  <a target="" href="Marine-Corps-Exchange.html">
+    <img alt=" " src="./store_image_files/Marine-Corps-Exchange.png">
+  </a>
+  <div class="desc">Marine Corps Exch</div>
+</div>
+<div class="img">
+  <a target="" href="MC-Sports.html">
+    <img alt=" " src="./store_image_files/MC-Sports.png">
+  </a>
+  <div class="desc">MC Sports</div>
+</div>
+<div class="img">
+  <a target="" href="Meijer-Thanksgiving.html">
+    <img alt=" " src="./store_image_files/Meijer.png">
+  </a>
+  <div class="desc">Meijer</div>
+</div>
+
+<div class="img">
+  <a target="" href="Michaels.html">
+    <img alt=" " src="./store_image_files/Michaels.png">
+  </a>
+  <div class="desc">Michaels</div>
+</div>
+<div class="img">
+  <a target="" href="Microsoft-Store.html">
+    <img alt=" " src="./store_image_files/microsoft-store.png">
+  </a>
+  <div class="desc">Microsoft Store</div>
+</div>
+
+<div class="img">
+  <a target="" href="Modells.html">
+    <img alt=" " src="./store_image_files/Modells.png">
+  </a>
+  <div class="desc">Modells</div>
+</div>
+<div class="img">
+  <a target="" href="Musicians-Friend.html">
+    <img alt=" " src="./store_image_files/Musicians-Friend.png">
+  </a>
+  <div class="desc">Musicians Friend</div>
+</div>
+<div class="img">
+  <a target="" href="Navy-Exchange.html">
+    <img alt=" " src="./store_image_files/Navy-Exchange.png">
+  </a>
+  <div class="desc">Navy Exchange</div>
+</div>
+
+<div class="img">
+  <a target="" href="NewEgg.html">
+    <img alt=" " src="./store_image_files/newegg.png">
+  </a>
+  <div class="desc">NewEgg</div>
+</div>
+<div class="img">
+  <a target="" href="Nikon.html">
+    <img alt=" " src="./store_image_files/Nikon.png">
+  </a>
+  <div class="desc">Nikon</div>
+</div>
+<div class="img">
+  <a target="" href="NY & Company.html">
+    <img alt=" " src="./store_image_files/NY-Company.png">
+  </a>
+  <div class="desc">NY&Company</div>
+</div>
+
+
+<div class="img">
+  <a target="" href="Office-Depot.html">
+    <img alt=" " src="./store_image_files/officedepot.png">
+  </a>
+  <div class="desc">Office Depot</div>
+</div>
+
+<div class="img">
+  <a target="" href="Old-Navy.html">
+    <img alt=" " src="./store_image_files/Old-Navy.png">
+  </a>
+  <div class="desc">Old Navy</div>
+</div>
+
+<div class="img">
+  <a target="" href="Olympia-Sports.html">
+    <img alt=" " src="./store_image_files/Olympia-Sports.png">
+  </a>
+  <div class="desc">Olympia Sports</div>
+</div>
+<div class="img">
+  <a target="" href="Original-Penguin.html">
+    <img alt=" " src="./store_image_files/Original-Penguin.png">
+  </a>
+  <div class="desc">Ori Penguin</div>
+</div>
+
+<div class="img">
+  <a target="" href="Overstock.html">
+    <img alt=" " src="./store_image_files/Overstock.png">
+  </a>
+  <div class="desc">Overstock</div>
+</div>
+<div class="img">
+  <a target="" href="Panasonic.html">
+    <img alt=" " src="./store_image_files/Panasonic.png">
+  </a>
+  <div class="desc">Panasonic</div>
+</div>
+<div class="img">
+  <a target="" href="PepBoys.html">
+    <img alt=" " src="./store_image_files/PepBoys.png">
+  </a>
+  <div class="desc">PepBoys</div>
+</div>
+<div class="img">
+  <a target="" href="Perry-Ellis.html">
+    <img alt=" " src="./store_image_files/Perry-Ellis.png">
+  </a>
+  <div class="desc">Perry Ellis</div>
+</div>
+<div class="img">
+  <a target="" href="Petco.html">
+    <img alt=" " src="./store_image_files/Petco.png">
+  </a>
+  <div class="desc">Petco</div>
+</div>
+<div class="img">
+  <a target="" href="Pet-Smart.html">
+    <img alt=" " src="./store_image_files/Pet-Smart.png">
+  </a>
+  <div class="desc">Pet-Smart</div>
+</div>
+<div class="img">
+  <a target="" href="Pet-Supplies-Plus.html">
+    <img alt=" " src="./store_image_files/Pet-Supplies-Plus.png">
+  </a>
+  <div class="desc">Pet Supplies+</div>
+</div>
+<div class="img">
+  <a target="" href="Pier-1.html">
+    <img alt=" " src="./store_image_files/Pier-1.png">
+  </a>
+  <div class="desc">Pier 1</div>
+</div>
+<div class="img">
+  <a target="" href="Rack-Room-Shoes.html">
+    <img alt=" " src="./store_image_files/Rack-Room.png">
+  </a>
+  <div class="desc">Rack Room</div>
+</div>
+<div class="img">
+  <a target="" href="RadioShack.html">
+    <img alt=" " src="./store_image_files/RadioShack.png">
+  </a>
+  <div class="desc">RadioShack</div>
+</div>
+<div class="img">
+  <a target="" href="Rakuten.html">
+    <img alt=" " src="./store_image_files/Rakuten.png">
+  </a>
+  <div class="desc">Rakuten</div>
+</div>
+<div class="img">
+  <a target="" href="Raymour-Flanigan.html">
+    <img alt=" " src="./store_image_files/Raymour-Flanigan.png">
+  </a>
+  <div class="desc">Raymour Flang</div>
+</div>
+<div class="img"
+  <a target="" href="Reeds-Jewelers.html">
+    <img alt=" " src="./store_image_files/Reeds-Jewelers.png">
+  </a>
+  <div class="desc">Reeds Jewel</div>
+</div>
+<div class="img">
+  <a target="" href="Rite-Aid.html">
+    <img alt=" " src="./store_image_files/Rite-Aid.png">
+  </a>
+  <div class="desc">Rite Aid</div>
+</div>
+<div class="img">
+  <a target="" href="Rural-King.html">
+    <img alt=" " src="./store_image_files/Rural-King.png">
+  </a>
+  <div class="desc">Rural-King</div>
+</div>
+<div class="img">
+  <a target="" href="Sams-Club.html">
+    <img alt=" " src="./store_image_files/Sams-Club.png">
+  </a>
+  <div class="desc">Sams Club</div>
+</div>
+
+	
+<div class="img">
+  <a target="" href="Sears.html">
+    <img alt=" " src="./store_image_files/sears-com.png">
+  </a>
+  <div class="desc">Sears</div>
+</div>
+<div class="img">
+  <a target="" href="Sears-Appliance-Hardware-Featured-Sale.html">
+    <img alt=" " src="./store_image_files/sears-com.png">
+  </a>
+  <div class="desc">Sears Appliance</div>
+</div>
+
+<div class="img">
+  <a target="" href="Sears-Mattress-Featured-Sale.csv.html">
+    <img alt=" " src="./store_image_files/sears-com.png">
+  </a>
+  <div class="desc">Sears Mattress</div>
+</div>
+<div class="img">
+  <a target="" href="Sears-Hometown.html">
+    <img alt=" " src="./store_image_files/sears-com.png">
+  </a>
+  <div class="desc">Sears Hometown</div>
+</div>
+<div class="img">
+  <a target="" href="Sears-Outlet.html">
+    <img alt=" " src="./store_image_files/sears-com.png">
+  </a>
+  <div class="desc">Sears Outlet</div>
+</div>
+
+<div class="img">
+  <a target="" href="Sephora.html">
+    <img alt=" " src="./store_image_files/Sephora.png">
+  </a>
+  <div class="desc">Sephora</div>
+</div>
+<div class="img">
+  <a target="" href="Shopko.html">
+    <img alt=" " src="./store_image_files/Shopko.png">
+  </a>
+  <div class="desc">Shopko</div>
+</div>
+<div class="img">
+  <a target="" href="Sierra-Trading-Post.html">
+    <img alt=" " src="./store_image_files/Sierra-Trading.png">
+  </a>
+  <div class="desc">Sierra Trading</div>
+</div>
+<div class="img">
+  <a target="" href="Sigma-Beauty.html">
+    <img alt=" " src="./store_image_files/Sigma-Beauty.png">
+  </a>
+  <div class="desc">Sigma Beauty</div>
+</div>
+<div class="img">
+  <a target="" href="Sports-Authority.html">
+    <img alt=" " src="./store_image_files/Sports-Authority.png">
+  </a>
+  <div class="desc">Sports Authority</div>
+</div>
+<div class="img">
+  <a target="" href="Sportsmans-Warehouse.html">
+    <img alt=" " src="./store_image_files/Sportsmans-Warehouse.png">
+  </a>
+  <div class="desc">Sport Warehouse</div>
+</div>
+<div class="img">
+  <a target="" href="Stage.html">
+    <img alt=" " src="./store_image_files/Stage.png">
+  </a>
+  <div class="desc">Stage</div>
+</div>
+<div class="img">
+  <a target="" href="Staples.html">
+    <img alt=" " src="./store_image_files/staples.png">
+  </a>
+  <div class="desc">Staples</div>
+</div>
+<div class="img">
+  <a target="" href="Toys-R-Us.html">
+    <img alt=" " src="./store_image_files/toys-r-us.png">
+  </a>
+  <div class="desc">Toys R Us</div>
+</div> 
+
+<div class="img">
+  <a target="" href="Tractor-Supply.html">
+    <img alt=" " src="./store_image_files/Tractor-Supply.png">
+  </a>
+  <div class="desc">Tractor Supply</div>
+</div> 
+<div class="img">
+  <a target="" href="True-Value.html">
+    <img alt=" " src="./store_image_files/True-Value.png">
+  </a>
+  <div class="desc">True Value</div>
+</div> 
+<div class="img">
+  <a target="" href="ULTA.html">
+    <img alt=" " src="./store_image_files/ULTA.png">
+  </a>
+  <div class="desc">ULTA</div>
+</div> 
+
+<div class="img">
+  <a target="" href="Value-City.html">
+    <img alt=" " src="./store_image_files/valuecity.png">
+  </a>
+  <div class="desc">Value City</div>
+</div>
+<div class="img">
+  <a target="" href="Walgreens.html">
+    <img alt=" " src="./store_image_files/Walgreens.png">
+  </a>
+  <div class="desc">Walgreens</div>
+</div>
+<div class="img">
+  <a target="" href="Walmart.html">
+    <img alt=" " src="./store_image_files/walmart.png">
+  </a>
+  <div class="desc">Walmart</div>
+</div>
+
+<div class="img">
+  <a target="" href="West-Marine.html">
+    <img alt=" " src="./store_image_files/West-Marine.png">
+  </a>
+  <div class="desc">West Marine</div>
+</div>
+<div class="img">
+  <a target="" href="Woman-Within.html">
+    <img alt=" " src="./store_image_files/woman-within.png">
+  </a>
+  <div class="desc">Woman Within</div>
+</div>
+<div class="img" >
+  <a target="" href="Zales.html">
+    <img alt=" " src="./store_image_files/Zales.png">
+  </a>
+  <div class="desc">Zales</div>
+</div>
+</DIV>
+<div class="taggy">
+  <a target="" >
+    <img alt=" " src="taggy-40.png">
+  </a>
+  <div class="taggyDesc">Taghide</div>
+</div>
+<div class="img" style="border:none;font-size:10px;">
+  <a target="" href="l">
+    <img alt=" " src="">
+  </a>
+  <div class="desc">Databse courtesy: tHyAbOdE</div>
+</div>
+</DIV>	
+</body></html>
