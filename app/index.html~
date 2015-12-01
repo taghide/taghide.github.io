@@ -137,7 +137,7 @@ font-size: 24px;
 
                  <!-- textbox and button -->
                     <div style="text-align:center;">
-			<form name="taghide" action="//formspree.io/sanjana.gandavarapu@taghide.com"method="POST">
+			<form name="taghide" action="//formspree.io/san.ganda@taghide.com"method="POST">
 <input type="email" class="emailTextbox" tabindex="1" name="_replyto" placeholder="@email id or #text to number">
                             </input>
                             <input type="submit" class="submitButton"  value="Notify Me">
